@@ -2,7 +2,7 @@
 
 A bunch of lilies with ruscus greenery and baby's breath that grows and blooms in coloured ASCII on a black background.
 
-Open `index.html` in a browser. It has no dependencies or build step. You can also serve the folder with any static server, for example `npx serve` or VS Code Live Server.
+Open `index.html` in a browsser. It has no dependencies or build step. You can also serve the folder with any static server, for example `npx serve` or VS Code Live Server.
 
 ## The bloom
 
