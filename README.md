@@ -2,7 +2,21 @@
 
 A bunch of lilies with ruscus greenery and baby's breath that grows and blooms in coloured ASCII on a black background.
 
-Open `index.html` in a browsser. It has no dependencies or build step. You can also serve the folder with any static server, for example `npx serve` or VS Code Live Server.
+Open `index.html` in a browser. It has no dependencies or build step. You can also serve the folder with any static server, for example `npx serve` or VS Code Live Server.
+
+## Deploy no GitHub Pages
+
+O deploy é feito automaticamente pelo GitHub Actions sempre que houver um push na branch `main`.
+
+1. No GitHub, abra **Settings → Pages**.
+2. Em **Build and deployment → Source**, selecione **GitHub Actions**.
+3. Faça push deste projeto para a branch `main`.
+4. Acompanhe o workflow em **Actions → Deploy static site to GitHub Pages**.
+
+Depois da primeira execução, o endereço será:
+`https://guimcl.github.io/Nova-pasta/`
+
+Se o repositório for renomeado, o GitHub atualizará o endereço do Pages conforme o novo nome.
 
 ## The bloom
 
