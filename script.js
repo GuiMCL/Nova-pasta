@@ -458,6 +458,7 @@
 
   // ---------- ascii renderer ----------
   const screen = document.getElementById('screen');
+  const letter = document.getElementById('letter');
   const sctx = screen.getContext('2d');
   const off = document.createElement('canvas');
   const octx = off.getContext('2d', { willReadFrequently: true });
@@ -541,6 +542,8 @@
     last = now;
     T = (now - t0) / 1000;
     render(S, PALETTES[palette]);
+    letter.classList.toggle('visible', T > 15);
+    letter.setAttribute('aria-hidden', T > 15 ? 'false' : 'true');
   }
 
   const replay = () => { t0 = performance.now(); };
